@@ -1,4 +1,19 @@
+require('dotenv').config();
 const { Client, GatewayIntentBits, Collection, Events, SlashCommandBuilder, EmbedBuilder } = require('discord.js');
+const express = require('express')
+const app = express()
+const port = 3000
+
+
+// Keep Alive
+app.get('/', (req, res) => {
+  res.send({isWorking: true})
+})
+
+app.listen(port, () => {
+  console.log(`Server Started On Port ${port}`)
+})
+
 
 // Create a new client instance
 const client = new Client({ 
