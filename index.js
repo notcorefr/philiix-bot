@@ -381,7 +381,7 @@ client.once(Events.ClientReady, readyClient => {
     console.log(`🤖 Bot is online and ready to respond to slash commands!`);
     console.log(`📊 Serving ${client.guilds.cache.size} guilds`);
 
-    
+    readyClient.user.setPresence({activities:[{name: "With Philiix"}], status: "dnd"});
 });
 
 // Handle slash command interactions
