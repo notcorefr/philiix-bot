@@ -36,10 +36,10 @@ const afkUsers = new Map();
 // GIF collections for interaction commands
 const gifs = {
     slap: [
-        'https://media.giphy.com/media/Gf3AUz3eBNbTW/giphy.gif',
-        'https://media.giphy.com/media/xUO4t2gkWBxDi/giphy.gif',
-        'https://media.giphy.com/media/3XlEk2RxPS1m8/giphy.gif',
-        'https://media.giphy.com/media/mEtSQlxVNvWJzQvQwa/giphy.gif'
+        'https://tenor.com/view/anime-slap-mad-gif-16057834',
+        'https://tenor.com/view/no-gif-17226651476707151245',
+        'https://tenor.com/view/chikku-neesan-girl-hit-wall-stfu-anime-girl-smack-gif-17078255',
+        'https://tenor.com/view/chainsaw-man-csm-csm-anime-chainsaw-man-anime-denji-gif-26957270',
     ],
     kiss: [
         'https://media.giphy.com/media/G3va31oEEnIkM/giphy.gif',
